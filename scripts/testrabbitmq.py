@@ -20,6 +20,7 @@ from thread import start_new_thread
 import pika
 import time
 
+"""Configuration below works for default RabbitMQ installation."""
 HOST = '127.0.0.1'
 USER = 'guest'
 PASSWORD = 'guest'
