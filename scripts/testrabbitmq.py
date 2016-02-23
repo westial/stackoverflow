@@ -1,13 +1,17 @@
 #!/usr/bin/env python
-"""Basic test case for rabbitmq.
+"""Basic test case for rabbitmq health.
+
+Client A posts a job to Queue and Client B gets the content from.
+
+Usage:
+
+    $ python testrabbitmq.py
 
 Requirements:
 
     * python 2.7
     * pika
     * unitest
-
-Client A posts a job to Queue and Client B gets the content from.
 """
 import unittest
 from Queue import Queue
