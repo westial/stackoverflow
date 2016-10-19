@@ -1,5 +1,5 @@
 # stackoverflow #
-Pieces of code for stackoverflow.com support issues
+PoC and example code pieces.
 
 ## Scripts ##
 
